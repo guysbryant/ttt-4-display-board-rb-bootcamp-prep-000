@@ -8,11 +8,11 @@ def display_board(board)
   # i = 0
   # while i < board.length
   board.each do |x|
-    if board[x] == " "
+    if x == " "
       returnBoard += empty
-    elsif board[x] == "X"
+    elsif x == "X"
       returnBoard += xCell
-    elsif board[x] == "O"
+    elsif x == "O"
       returnBoard += oCell
     end 
     

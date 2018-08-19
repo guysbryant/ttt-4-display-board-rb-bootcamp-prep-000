@@ -25,5 +25,5 @@ def display_board(board)
     
     i+=1
   end
-  puts "${returnBoard}"
+  puts "#{returnBoard}"
 end

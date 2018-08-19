@@ -8,7 +8,8 @@ def display_board(board)
   i = 0
   while i < board.length
     if board[i] == ""
-      returnBoard.push(empty)
+      puts "empty"
+      # returnBoard.push(empty)
     # elsif board[i] == "x"
     #   returnBoard.push(x)
     # elsif board[i] == "o"

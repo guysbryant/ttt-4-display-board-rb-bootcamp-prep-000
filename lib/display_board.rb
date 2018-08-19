@@ -3,3 +3,5 @@
 def display_board(board)
   puts board
 end
+
+puts display_board

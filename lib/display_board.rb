@@ -16,7 +16,6 @@ def display_board(board)
     end 
     
     if i != 2 && i != 5 && i != 8
-      puts "not 2, 5, or 8"
       returnBoard.push("|")
     end
     

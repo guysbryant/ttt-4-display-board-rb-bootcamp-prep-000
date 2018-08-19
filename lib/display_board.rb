@@ -8,19 +8,19 @@ def display_board(board)
   i = 0
   while i < board.length
     if board[i] == " "
-      returnBoard.push(empty)
+      returnBoard += empty
     elsif board[i] == "X"
-      returnBoard.push(x)
+      returnBoard += x
     elsif board[i] == "O"
-      returnBoard.push(o)
+      returnBoard += o
     end 
     
     if i != 2 && i != 5 && i != 8
-      returnBoard.push("|")
+      returnBoard += "|"
     end
     
     if i == 2 || i == 5
-      returnBoard.push("\n-----------")
+      returnBoard += "\n-----------"
     end
     
     i+=1

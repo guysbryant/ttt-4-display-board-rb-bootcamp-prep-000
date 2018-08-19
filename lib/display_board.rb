@@ -4,17 +4,17 @@ def display_board(board)
   returnBoard = ""
   i = 0
   board.each do |x|
-    returnBoard += " #{x} "
+    puts " #{x} "
     if i != 2 && i != 5 && i != 8
-      returnBoard += "|"
+      puts "|"
     end
     
     if i == 2 || i == 5
-      returnBoard += "\n-----------\n"
+      puts "\n-----------\n"
     end
     i+=1
   end
-  puts returnBoard
+  # puts returnBoard
 end
 #   empty = "   "
 #   xCell = " X "

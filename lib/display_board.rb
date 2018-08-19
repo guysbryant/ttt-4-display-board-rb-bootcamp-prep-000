@@ -20,6 +20,7 @@ def display_board(board)
     if i == 2 || i == 5
       returnBoard.push("\n-----------")
     end
+    i++
   end
   puts returnBoard
 end

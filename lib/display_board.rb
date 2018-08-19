@@ -5,7 +5,7 @@ def display_board(board)
   xCell = " X "
   oCell = " O "
   returnBoard = ""
-  
+  i = 0
   # while i < board.length
   board.each do |x|
     if x == " "

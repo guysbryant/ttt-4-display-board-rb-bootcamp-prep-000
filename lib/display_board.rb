@@ -2,6 +2,6 @@
 # out the current state.
 def display_board(board)
   if board.length == 0
-    puts "   |   |   "
+    return "   |   |   "
   end
 end

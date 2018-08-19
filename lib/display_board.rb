@@ -1,7 +1,17 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 def display_board(board)
-  
+  returnBoard = ""
+  i = 0
+  board.each do |x|
+    returnBoard += " ${x} "
+    if i != 2 && i != 5 && i != 8
+      returnBoard += "|"
+    end
+    
+    if i == 2 || i ++ 5
+      returnBoard += "\n-----------\n"
+  end
 end
 #   empty = "   "
 #   xCell = " X "

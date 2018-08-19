@@ -8,7 +8,6 @@ def display_board(board)
   
   # while i < board.length
   board.each do |x|
-    i = 0
     if x == " "
       returnBoard += empty
     elsif x == "X"

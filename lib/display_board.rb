@@ -4,6 +4,8 @@ def display_board(board)
   empty = "   "
   xCell = " X "
   oCell = " O "
+  vertSeparator = "|"
+  horzSeparator = "\n-----------\n"
   returnBoard = ""
   i = 0
   board.each do |x|
@@ -16,11 +18,11 @@ def display_board(board)
     end 
     
     if i != 2 && i != 5 && i != 8
-      returnBoard += "|"
+      returnBoard += vertSeparator
     end
     
     if i == 2 || i == 5
-      returnBoard += "\n-----------\n"
+      returnBoard += horzSeparator
     end
     
     i+=1

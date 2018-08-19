@@ -7,7 +7,7 @@ def display_board(board)
   returnBoard = []
   i = 0
   while i < board.length
-    if board[i] == ""
+    if board[i] == " "
       returnBoard.push(empty)
     elsif board[i] == "X"
       returnBoard.push(x)

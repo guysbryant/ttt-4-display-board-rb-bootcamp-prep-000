@@ -8,23 +8,22 @@ def display_board(board)
   i = 0
   while i < board.length
     if board[i] == ""
-      puts "empty"
-      # returnBoard.push(empty)
-    # elsif board[i] == "x"
-    #   returnBoard.push(x)
-    # elsif board[i] == "o"
-    #   returnBoard.push(o)
+      returnBoard.push(empty)
+    elsif board[i] == "x"
+      returnBoard.push(x)
+    elsif board[i] == "o"
+      returnBoard.push(o)
     end 
     
-    # if i != 2 && i != 5 && i != 8
-    #   returnBoard.push("|")
-    # end
+    if i != 2 && i != 5 && i != 8
+      returnBoard.push("|")
+    end
     
-    # if i == 2 || i == 5
-    #   returnBoard.push("\n-----------")
-    # end
+    if i == 2 || i == 5
+      returnBoard.push("\n-----------")
+    end
     
-    i += 1
+    i++
   end
-  # puts returnBoard
+  puts returnBoard
 end

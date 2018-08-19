@@ -2,16 +2,16 @@
 # out the current state.
 def display_board(board)
   empty = "   "
-  x = "x"
-  o = "o"
+  x = "X"
+  o = "O"
   returnBoard = []
   i = 0
   while i < board.length
     if board[i] == ""
       returnBoard.push(empty)
-    elsif board[i] == "x"
+    elsif board[i] == "X"
       returnBoard.push(x)
-    elsif board[i] == "o"
+    elsif board[i] == "O"
       returnBoard.push(o)
     end 
     

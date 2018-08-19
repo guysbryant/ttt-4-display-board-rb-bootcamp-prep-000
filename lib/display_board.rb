@@ -7,7 +7,7 @@ def display_board(board)
   returnBoard = ""
   # i = 0
   # while i < board.length
-  board.each |x| do
+  board.each do |x|
     if board[x] == " "
       returnBoard += empty
     elsif board[x] == "X"

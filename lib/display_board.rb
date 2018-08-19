@@ -2,28 +2,29 @@
 # out the current state.
 def display_board(board)
   empty = "   "
-  x = " X "
-  o = " O "
+  xCell = " X "
+  oCell = " O "
   returnBoard = ""
-  i = 0
-  while i < board.length
-    if board[i] == " "
+  # i = 0
+  # while i < board.length
+  board.each |x| do
+    if board[x] == " "
       returnBoard += empty
-    elsif board[i] == "X"
-      returnBoard += x
-    elsif board[i] == "O"
-      returnBoard += o
+    elsif board[x] == "X"
+      returnBoard += xCell
+    elsif board[x] == "O"
+      returnBoard += oCell
     end 
     
-    if i != 2 && i != 5 && i != 8
+    if x != 2 && x != 5 && x != 8
       returnBoard += "|"
     end
     
-    if i == 2 || i == 5
+    if x == 2 || x == 5
       returnBoard += "\n-----------\n"
     end
     
-    i+=1
+    # i+=1
   end
   puts returnBoard
 end

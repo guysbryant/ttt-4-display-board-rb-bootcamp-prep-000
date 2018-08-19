@@ -5,9 +5,10 @@ def display_board(board)
   xCell = " X "
   oCell = " O "
   returnBoard = ""
-  # i = 0
+  
   # while i < board.length
   board.each do |x|
+    i = 0
     if x == " "
       returnBoard += empty
     elsif x == "X"
@@ -16,15 +17,15 @@ def display_board(board)
       returnBoard += oCell
     end 
     
-    # if x != 2 && x != 5 && x != 8
-    #   returnBoard += "|"
-    # end
+    if x != 2 && x != 5 && x != 8
+      returnBoard += "|"
+    end
     
-    # if x == 2 || x == 5
-    #   returnBoard += "\n-----------\n"
-    # end
+    if x == 2 || x == 5
+      returnBoard += "\n-----------\n"
+    end
     
-    # i+=1
+    i+=1
   end
   puts returnBoard
 end

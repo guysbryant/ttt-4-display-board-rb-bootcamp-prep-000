@@ -2,8 +2,8 @@
 # out the current state.
 def display_board(board)
   empty = "   "
-  x = "X"
-  o = "O"
+  x = " X "
+  o = " O "
   returnBoard = []
   i = 0
   while i < board.length

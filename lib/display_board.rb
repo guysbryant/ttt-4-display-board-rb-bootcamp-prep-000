@@ -16,13 +16,13 @@ def display_board(board)
       returnBoard += oCell
     end 
     
-    if x != 2 && x != 5 && x != 8
-      returnBoard += "|"
-    end
+    # if x != 2 && x != 5 && x != 8
+    #   returnBoard += "|"
+    # end
     
-    if x == 2 || x == 5
-      returnBoard += "\n-----------\n"
-    end
+    # if x == 2 || x == 5
+    #   returnBoard += "\n-----------\n"
+    # end
     
     # i+=1
   end

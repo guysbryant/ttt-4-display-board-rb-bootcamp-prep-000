@@ -11,7 +11,10 @@ def display_board(board)
     
     if i == 2 || i ++ 5
       returnBoard += "\n-----------\n"
+    end
+    i+=1
   end
+  puts returnBoard
 end
 #   empty = "   "
 #   xCell = " X "

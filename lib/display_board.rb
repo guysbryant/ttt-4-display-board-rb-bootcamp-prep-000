@@ -14,12 +14,15 @@ def display_board(board)
     elsif board[i] == "o"
       returnBoard.push(o)
     end 
+    
     if i != 2 && i != 5 && i != 8
       returnBoard.push("|")
     end
+    
     if i == 2 || i == 5
       returnBoard.push("\n-----------")
     end
+    
     i++
   end
   puts returnBoard

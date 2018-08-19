@@ -20,7 +20,7 @@ def display_board(board)
     end
     
     if i == 2 || i == 5
-      returnBoard += "\n-----------"
+      returnBoard += "\n-----------\n"
     end
     
     i+=1

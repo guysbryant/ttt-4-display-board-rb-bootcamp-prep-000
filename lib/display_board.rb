@@ -4,7 +4,7 @@ def display_board(board)
   returnBoard = ""
   i = 0
   board.each do |x|
-    returnBoard += " ${x} "
+    returnBoard += " #{x} "
     if i != 2 && i != 5 && i != 8
       returnBoard += "|"
     end

@@ -23,7 +23,7 @@ def display_board(board)
       returnBoard.push("\n-----------")
     end
     
-    i++
+    i+=1
   end
   puts returnBoard
 end

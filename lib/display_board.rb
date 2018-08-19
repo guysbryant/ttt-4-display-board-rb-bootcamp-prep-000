@@ -17,11 +17,11 @@ def display_board(board)
       returnBoard += oCell
     end 
     
-    if x != 2 && x != 5 && x != 8
+    if i != 2 && i != 5 && i != 8
       returnBoard += "|"
     end
     
-    if x == 2 || x == 5
+    if i == 2 || i == 5
       returnBoard += "\n-----------\n"
     end
     

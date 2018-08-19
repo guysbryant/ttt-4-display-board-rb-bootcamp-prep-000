@@ -26,5 +26,6 @@ def display_board(board)
     
     i+=1
   end
+  return returnBoard
   # puts returnBoard
 end

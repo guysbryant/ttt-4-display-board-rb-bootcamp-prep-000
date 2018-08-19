@@ -4,7 +4,7 @@ def display_board(board)
   empty = "   "
   x = " X "
   o = " O "
-  returnBoard = []
+  returnBoard = ""
   i = 0
   while i < board.length
     if board[i] == " "

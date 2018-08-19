@@ -15,13 +15,13 @@ def display_board(board)
       returnBoard.push(o)
     end 
     
-    if i != 2 && i != 5 && i != 8
-      returnBoard.push("|")
-    end
+    # if i != 2 && i != 5 && i != 8
+    #   returnBoard.push("|")
+    # end
     
-    if i == 2 || i == 5
-      returnBoard.push("\n-----------")
-    end
+    # if i == 2 || i == 5
+    #   returnBoard.push("\n-----------")
+    # end
     
     i++
   end

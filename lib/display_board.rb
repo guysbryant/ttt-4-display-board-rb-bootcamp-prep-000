@@ -9,7 +9,7 @@ def display_board(board)
       returnBoard += "|"
     end
     
-    if i == 2 || i ++ 5
+    if i == 2 || i == 5
       returnBoard += "\n-----------\n"
     end
     i+=1

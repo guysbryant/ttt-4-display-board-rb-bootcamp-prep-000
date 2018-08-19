@@ -3,7 +3,7 @@
 def display_board(board)
   returnBoard = ""
   i = 0
-  board.each do |x|{
+  board.each do |x|
     returnBoard += " #{x} "
     if i != 2 && i != 5 && i != 8
       returnBoard += "|"
@@ -13,7 +13,7 @@ def display_board(board)
       returnBoard += "\n-----------\n"
     end
     i+=1
-  end}
+  end
   puts returnBoard
 end
 #   empty = "   "

@@ -9,10 +9,10 @@ def display_board(board)
   while i < board.length
     if board[i] == ""
       returnBoard.push(empty)
-    elsif board[i] == "x"
-      returnBoard.push(x)
-    elsif board[i] == "o"
-      returnBoard.push(o)
+    # elsif board[i] == "x"
+    #   returnBoard.push(x)
+    # elsif board[i] == "o"
+    #   returnBoard.push(o)
     end 
     
     # if i != 2 && i != 5 && i != 8
